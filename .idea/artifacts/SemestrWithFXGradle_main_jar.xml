@@ -1,27 +1,29 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="SemestrWithFXGradle.main:jar">
+  <artifact type="jar" build-on-make="true" name="SemestrWithFXGradle.main:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/SemestrWithFXGradle_main_jar</output-path>
-    <root id="archive" name="SemestrWithFXGradle.main.jar">
-      <element id="module-output" name="SemestrWithFXGradle.main" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio-jvm/3.6.0/5600569133b7bdefe1daf9ec7f4abeb6d13e1786/okio-jvm-3.6.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/23.0.1/f3c056075623f7cd2e77b17f14e3575e37884373/javafx-base-23.0.1-win.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.9.0/8a1167e089096758b49f9b34066ef98b2f4b37aa/gson-2.9.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.9.10/dafaf2c27f27c09220cee312df10917d9a5d97ce/kotlin-stdlib-common-1.9.10.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.11/4741689214e9d1e8408b206506cbe76d1c6a7d60/logback-classic-1.2.11.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.20/e72fc5e03ec6c064c678a6bd0d955c88d55b0c4a/kotlin-stdlib-1.8.20.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/23.0.1/c85b22eae11514b5481eb3dea9e2d448235ac592/javafx-controls-23.0.1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/23.0.1/b09ccc9d998ad8eb1fade4e100c3ff0835d018b5/javafx-base-23.0.1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.20/3aa51faf20aae8b31e1a4bc54f8370673d7b7df4/kotlin-stdlib-jdk7-1.8.20.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.12.0/2f4525d4a200e97e1b87449c2cd9bd2e25b7e8cd/okhttp-4.12.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/cdcff33940d9f2de763bc41ea05a0be5941176c3/slf4j-api-1.7.32.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.11/a01230df5ca5c34540cdaa3ad5efb012f1f1f792/logback-core-1.2.11.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-fxml/23.0.1/7cb94fc08a8fa9f355c9e52c1f0c45c62015a62f/javafx-fxml-23.0.1-win.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/23.0.1/bdb03f39a659b3c710fffefc8e3385d8696e1147/javafx-controls-23.0.1-win.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/23.0.1/b4421dba8a9d00b99138c65c01f1dc9a6c7ae50f/javafx-graphics-23.0.1-win.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.20/73576ddf378c5b4f1f6b449fe6b119b8183fc078/kotlin-stdlib-jdk8-1.8.20.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/23.0.1/86bfcc23faf67f7eb9a6dc09b062f75499e9a76c/javafx-graphics-23.0.1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.8.20/ea6ffe3c1bb1229f4d9279ae51395c54e7132d53/kotlin-reflect-1.8.20.jar" path-in-jar="/" />
+    <root id="archive" name="SemestrWithFXGradle.main_jar.jar">
+      <element id="archive" name="SemestrWithFXGradle.main.jar">
+        <element id="module-output" name="SemestrWithFXGradle.main" />
+      </element>
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-fxml:win:23.0.1" />
+      <element id="library" level="project" name="Gradle: com.squareup.okhttp3:okhttp:4.12.0" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-base:23.0.1" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10" />
+      <element id="library" level="project" name="Gradle: com.squareup.okio:okio-jvm:3.6.0" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-base:win:23.0.1" />
+      <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.9.0" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10" />
+      <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.2.11" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-controls:23.0.1" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-graphics:win:23.0.1" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.8.20" />
+      <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.2.11" />
+      <element id="library" level="project" name="Gradle: org.jetbrains:annotations:13.0" />
+      <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.32" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-controls:win:23.0.1" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.9.10" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-graphics:23.0.1" />
     </root>
   </artifact>
 </component>
