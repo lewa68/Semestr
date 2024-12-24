@@ -10,7 +10,5 @@ public class PreferenceUtil {
         prefs.put(LAST_CITY_KEY, city);
     }
 
-    public static String getLastCity() {
-        return prefs.get(LAST_CITY_KEY, "");
-    }
+    public static String getLastCity() {return prefs.get(LAST_CITY_KEY, "");}
 }

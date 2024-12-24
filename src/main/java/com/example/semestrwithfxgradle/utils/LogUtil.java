@@ -6,11 +6,15 @@ import org.slf4j.LoggerFactory;
 public class LogUtil {
     public static final Logger logger = LoggerFactory.getLogger(LogUtil.class);
 
-    public static void info(String message) {
-        logger.info(message);
+    public static void debug(String format, Object... args) {
+        logger.debug(format, args);
     }
 
-    public static void error(String message, Throwable throwable) {
-        logger.error(message, throwable);
+    public static void info(String format, Object... args) {
+        logger.info(format, args);
+    }
+
+    public static void error(String format, Throwable throwable) {
+        logger.error(format, throwable);
     }
 }

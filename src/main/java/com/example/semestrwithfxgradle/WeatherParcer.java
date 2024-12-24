@@ -13,9 +13,9 @@ public class WeatherParcer extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("weather.fxml"));
         Parent root = loader.load();
 
-        Scene scene = new Scene(root, 600, 500);
+        Scene scene = new Scene(root, 800, 500);
 
-        primaryStage.setTitle("Weather App");
+        primaryStage.setTitle("Weather");
         primaryStage.setScene(scene);
         primaryStage.show();
     }

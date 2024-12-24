@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
 
-<HBox xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.semestrwithfxgradle.WeatherParcerController"
-      spacing="10"
-      style="-fx-font-family: 'Arial';">
+<HBox spacing="10" style="-fx-font-family: 'Arial';" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.semestrwithfxgradle.WeatherParcerController">
 
     <padding>
-        <Insets top="10.0" right="10.0" bottom="10.0" left="10.0"/>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
     </padding>
 
     <VBox spacing="10">
-        <ComboBox fx:id="cityComboBox" onAction="#fetchWeather" style="-fx-font-size: 16px; -fx-prompt-text-fill: #666666;" />
+        <HBox spacing="10">
+            <ComboBox fx:id="cityComboBox" editable="true" onAction="#fetchWeather" promptText="введите название города" style="-fx-font-size: 16px; -fx-prompt-text-fill: #666666;" />
+            <Button onAction="#fetchWeather" style="-fx-font-size: 16px;" text="Получить погоду" />
+        </HBox>
+
+        <StackPane alignment="CENTER">
+            <ProgressBar fx:id="progressBar" style="-fx-min-width: 200px;" visible="false" />
+            <Label fx:id="progressLabel" style="-fx-font-size: 14px; -fx-font-weight: bold; -fx-text-fill: #666666;" text="Загрузка..." visible="false" />
+        </StackPane>
 
         <HBox fx:id="imageContainer" spacing="10">
             <ImageView fitHeight="50" fitWidth="50" />

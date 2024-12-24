@@ -1,0 +1,18 @@
+2024-12-24 18:50:29 ERROR c.e.s.utils.LogUtil - Failed to fetch weather data for city: Kemor. HTTP code: 404
+2024-12-24 18:54:15 ERROR c.e.s.utils.LogUtil - Failed to fetch cities for query: Луь. HTTP code: 400
+2024-12-24 18:54:17 ERROR c.e.s.utils.LogUtil - Failed to fetch cities for query: Kem. HTTP code: 400
+2024-12-24 18:54:17 ERROR c.e.s.utils.LogUtil - Failed to fetch cities for query: Keme. HTTP code: 400
+2024-12-24 18:54:20 ERROR c.e.s.utils.LogUtil - Failed to fetch cities for query: Kemer. HTTP code: 400
+2024-12-24 18:54:21 ERROR c.e.s.utils.LogUtil - Failed to fetch cities for query: Kemero. HTTP code: 400
+2024-12-24 18:54:22 ERROR c.e.s.utils.LogUtil - Failed to fetch cities for query: Kemerov. HTTP code: 400
+2024-12-24 18:54:23 ERROR c.e.s.utils.LogUtil - Failed to fetch cities for query: Kemerovo. HTTP code: 400
+2024-12-24 18:57:33 ERROR c.e.s.utils.LogUtil - Failed to fetch cities for query: Kemerovo. HTTP code: 403
+2024-12-24 18:57:37 ERROR c.e.s.utils.LogUtil - Failed to fetch cities for query: Kemerov. HTTP code: 403
+2024-12-24 18:57:38 ERROR c.e.s.utils.LogUtil - Failed to fetch cities for query: Kemero. HTTP code: 403
+2024-12-24 18:57:38 ERROR c.e.s.utils.LogUtil - Failed to fetch cities for query: Kemer. HTTP code: 403
+2024-12-24 18:57:38 ERROR c.e.s.utils.LogUtil - Failed to fetch cities for query: Keme. HTTP code: 403
+2024-12-24 19:28:08 ERROR c.e.s.utils.LogUtil - Failed to fetch weather data for city: Krasn. HTTP code: 404
+2024-12-24 19:35:23 ERROR c.e.s.utils.LogUtil - Failed to fetch weather data for city: Моск. HTTP code: 404
+2024-12-24 19:36:32 ERROR c.e.s.utils.LogUtil - Failed to fetch weather data for city: Ниггер. HTTP code: 404
+2024-12-24 19:37:22 ERROR c.e.s.utils.LogUtil - Failed to fetch weather data for city: ??. HTTP code: 404
+2024-12-24 19:42:28 ERROR c.e.s.utils.LogUtil - Failed to fetch weather data for city: моск. HTTP code: 404
